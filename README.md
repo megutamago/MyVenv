@@ -36,5 +36,7 @@ python3 -m venv venv && \
 ```
 
 ```
-a
+git clone https://github.com/megutamago/MyVenv.git && \
+mkdir ~/.cache/shell && \
+cp MyVenv/zsh.txt ~/.zshrc
 ```
