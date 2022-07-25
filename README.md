@@ -27,6 +27,7 @@ windows terminal json
 
 python venv create
 ```
+sudo apt install -y python3-venv
 cd ~ && \
 mkdir sample1 && \
 cd sample1 && \
