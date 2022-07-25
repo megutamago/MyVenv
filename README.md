@@ -36,6 +36,5 @@ python3 -m venv venv && \
 ```
 
 ```
-aws configure
-aws configure --profile <>
+a
 ```
