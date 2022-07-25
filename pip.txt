@@ -1,0 +1,53 @@
+
+# pip:
+awscli
+pip install https://github.com/boto/botocore/archive/v2.tar.gz
+pip install https://github.com/aws/aws-cli/archive/v2.tar.gz
+
+pip install pip-review
+
+pip install pandas
+pip install numpy
+
+pip install wordcloud
+pip install tweepy
+
+pip install requests
+pip install beautifulsoup4
+pip install selenium
+pip install PyInstaller
+pip install PyMySQL
+
+# commands
+pip freeze > requirements.txt
+pip install -U pip
+pip check
+
+
+# other
+import winsound
+winsound.Beep(500, 500)
+
+
+# slack通知
+import slackweb
+slack = slackweb.Slack(url="WebhookのURL")
+slack.notify(text="Pythonからslackへ通知する")
+
+#slack.notify(text="タイムカードを打刻しましょう")
+
+
+# excel読み込み、操作
+#pandasを読み込む
+import pandas as pd
+#input file name
+input_file_name = 'since2003_visitor_arrivals.xlsx'
+#xls book Open (xls, xlsxのどちらでも可能)
+input_book = pd.ExcelFile(input_file_name)
+#sheet_namesメソッドでExcelブック内の各シートの名前をリストで取得できる
+input_sheet_name = input_book.sheet_names
+#lenでシートの総数を確認
+num_sheet = len(input_sheet_name)
+#シートの数とシートの名前のリストの表示
+print ("Sheet の数:", num_sheet)
+print (input_sheet_name)
