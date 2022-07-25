@@ -35,3 +35,7 @@ python3 -m venv venv && \
 . venv/bin/activate
 ```
 
+```
+aws configure
+aws configure --profile <>
+```
