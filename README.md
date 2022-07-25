@@ -29,8 +29,8 @@ python venv create
 ```
 sudo apt install -y python3-venv
 cd ~ && \
-mkdir sample1 && \
-cd sample1 && \
+mkdir venvs && \
+cd venvs && \
 python3 -m venv venv && \
 . venv/bin/activate
 ```
