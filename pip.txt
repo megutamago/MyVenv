@@ -1,8 +1,10 @@
 
 # pip:
-awscli
+# awscli
 pip install https://github.com/boto/botocore/archive/v2.tar.gz
 pip install https://github.com/aws/aws-cli/archive/v2.tar.gz
+aws configure
+aws configure --profile <>
 
 pip install pip-review
 
