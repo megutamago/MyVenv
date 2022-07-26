@@ -1,5 +1,3 @@
-﻿#----- .zshrc ----------------------------------------------------------
-
 # Executes commands at the start of an interactive session.
 
 # ================================
@@ -157,7 +155,3 @@ export VISUAL='vim'
 ## -W ... highlight first unread line after forward movement
 ## (-S ... truncate long lines instead of folding)
 export LESS='-iRW'
-
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
