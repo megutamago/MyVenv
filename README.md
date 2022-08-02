@@ -35,13 +35,6 @@ python3 -m venv venv && \
 . venv/bin/activate
 ```
 
-zsh setting
-```
-git clone https://github.com/megutamago/MyVenv.git && \
-mkdir ~/.cache/shell && \
-cp MyVenv/zsh.txt ~/.zshrc
-```
-
 terraform install
 ```
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
